@@ -54,3 +54,5 @@ def display(latitude, longitude, speed, gpsTime, gpsdate, st_in, st_use, pdop, m
             if i == 1:
                 break
     oled.show()
+while True:
+    history.append((float(latitude), float(longitude)))###mode 3
