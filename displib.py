@@ -1,3 +1,4 @@
+#Math module needs to be imported
 def display(latitude, longitude, speed, gpsTime, gpsdate, st_in, st_use, pdop, mode, altitude, course, history):
     global ndata
     global a
